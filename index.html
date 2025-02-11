@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-200 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-300 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between">
+            <div class="text-white text-lg font-bold">My Portfolio</div>
+            <div>
+                <a href="#about" class="text-white px-4 hover:underline">About Me</a>
+                <a href="#skills" class="text-white px-4 hover:underline">Skills</a>
+                <a href="#projects" class="text-white px-4 hover:underline">Projects</a>
+                <a href="#contact" class="text-white px-4 hover:underline">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Personal Details -->
+    <section class="container mx-auto p-8 text-center">
+        <h1 class="text-4xl font-bold">Hello, I'm Makwana Rutvik</h1>
+        <p class="mt-4">I am a Frontend Developer with a passion for creating beautiful and functional web applications.</p>
+        <div class="text-center mt-4">
+            <a href="#" class="bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-500">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container mx-auto p-8 bg-white rounded-lg shadow-lg text-center">
+        <h2 class="text-3xl font-bold">About Me</h2>
+        <p class="mt-4">I have Creat web Page Using HTML,CSS,Bootstrap and Curently Working On React Js</p>
+        <p>I am Study in B.Tech IT 6th SEM In Silver Oak University</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container mx-auto p-8 bg-white rounded-lg shadow-lg text-center">
+        <h2 class="text-3xl font-bold">My Skills</h2>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <i class="fab fa-html5 text-orange-500 text-4xl"></i>
+                <h3 class="mt-2 text-lg font-semibold">HTML5</h3>
+            </div>
+            <div class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <i class="fab fa-css3-alt text-blue-500 text-4xl"></i>
+                <h3 class="mt-2 text-lg font-semibold">CSS3</h3>
+            </div>
+            <div class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <i class="fa-brands fa-bootstrap text-4xl"></i>
+                <h3 class="mt-2 text-lg font-semibold">Bootstrap</h3>
+            </div>
+
+            <div class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <i class="fab fa-js text-yellow-500 text-4xl"></i>
+                <h3 class="mt-2 text-lg font-semibold">JavaScript</h3>
+            </div>
+            <div class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <i class="fab fa-react text-blue-400 text-4xl"></i>
+                <h3 class="mt-2 text-lg font-semibold">React</h3>
+            </div>
+            <div class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <i class="fab fa-node-js text-green-500 text-4xl"></i>
+                <h3 class="mt-2 text-lg font-semibold">Node.js</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="container mx-auto p-8 bg-white rounded-lg shadow-lg text-center">
+        <h2 class="text-3xl font-bold">My Projects</h2>
+        <ul class="mt-4">
+            <li class="mt-2">Project 1: <a href="https://github.com/rutvik1012/Felix-Page-Bootstrap" target="_blank" class="text-blue-600">Creat Full responsive Page Html,CSS and Bootstrap</a></li>
+            <li class="mt-2">Project 2: <a href="https://github.com/rutvik1012/Search-bar" target="_blank" class="text-blue-600">Search page Search Direct in Flipkart and Amazon</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container mx-auto p-8 bg-white rounded-lg shadow-lg text-center">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+        <p class="mt-4">Email: makwanarutvik1012@gmail.com</p>
+        <p>Phone: 8401617115</p>
+        <p>LinkedIn: [Your LinkedIn Profile]</p>
+        <form class="mt-4">
+            <input type="text" placeholder="Your Name" class="border p-2 w-full mb-2" required>
+            <input type="email" placeholder="Your Email" class="border p-2 w-full mb-2" required>
+            <textarea placeholder="Your Message" class="border p-2 w-full mb-2" required></textarea>
+            <button type="submit" class="bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-500">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="bg-gray-300 p-4 text-center text-white mt-8">
+        &copy; 2025 My Portfolio
+    </footer>
+</body>
+</html>
